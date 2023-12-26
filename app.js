@@ -6,7 +6,7 @@
   número.
   De esta forma ponemos el foco en la facilidad y rapidez de la implementación.
 */
-const compareSums = (nums , hasNumber) => {
+const findSumNumber = (nums , hasNumber) => {
   for(let i = 0 ; i < nums.length ; i++){
     
     for(let j = 0 ; j < nums.length ; j++){
@@ -20,7 +20,7 @@ const compareSums = (nums , hasNumber) => {
 };
 
 const nums = [1,2,3,4,5];
-const firstSolution = compareSums(nums, 8); //true
+const firstSolution = findSumNumber(nums, 8); //true
 console.log(`El resultado de la solución 2 es : ${firstSolution}`);
 
 
