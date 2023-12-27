@@ -3,11 +3,10 @@
 ##Comando para correr en dev y utilizar nodemon
 
 ##
+npm run dev
 
 Lenguaje utilizado : Javascript
 
 Paquetes instalados : Nodemon, Node
-
-npm run dev
 
 ##
